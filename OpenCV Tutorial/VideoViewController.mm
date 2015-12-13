@@ -180,7 +180,7 @@
     // Do some OpenCV stuff with the image
     [self.currentSample processFrame:image into:outputFrame];
     
-    //outputFrame.copyTo(image);
+    outputFrame.copyTo(image);
 }
 #endif
 
